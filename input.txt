@@ -1,0 +1,34 @@
+# Простые переменные
+var A := 10;
+var B := 111111;
+
+# Пустой массив и словарь
+var EMPTY_ARRAY := ();
+var EMPTY_DICT := {};
+
+# Массив с числами и выражениями
+var NUM_ARRAY := ( 1, 2, $+ 3 4$, $mod 10 3$ );
+
+# Словарь с вложенными структурами
+var COMPLEX_DICT := {
+  KEY1 => 123,
+  KEY2 => ( 10, $+ 1 2$, $mod 20 6$ ),
+  KEY3 => {
+    NESTED_KEY1 => "STRING",
+    NESTED_KEY2 => $+ 100 200$
+  }
+};	
+
+# Использование ранее объявленных переменных
+var COMBINED := {
+  ARR => NUM_ARRAY,
+  DICT => EMPTY_DICT,
+  VALUE => $+ 10 20$
+};
+
+# Вложенные массивы и словари
+var NESTED_STRUCT := {
+  LEVEL1 => {
+    LEVEL2 => ( 1, 2, { INNER_KEY => $+ 5 10$ } )
+  }
+};

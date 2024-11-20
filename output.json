@@ -1,0 +1,45 @@
+{
+  "A": 10,
+  "B": 111111,
+  "EMPTY_ARRAY": [],
+  "EMPTY_DICT": {},
+  "NUM_ARRAY": [
+    1,
+    2,
+    7,
+    1
+  ],
+  "COMPLEX_DICT": {
+    "KEY1": 123,
+    "KEY2": [
+      10,
+      3,
+      2
+    ],
+    "KEY3": {
+      "NESTED_KEY1": "STRING",
+      "NESTED_KEY2": 300
+    }
+  },
+  "COMBINED": {
+    "ARR": [
+      1,
+      2,
+      7,
+      1
+    ],
+    "DICT": {},
+    "VALUE": 30
+  },
+  "NESTED_STRUCT": {
+    "LEVEL1": {
+      "LEVEL2": [
+        1,
+        2,
+        {
+          "INNER_KEY": 15
+        }
+      ]
+    }
+  }
+}
